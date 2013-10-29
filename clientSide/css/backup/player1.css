@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+
+/* player */
+#player1>.data>.plname{
+	background-color:#B32855;
+	}
+
+#player1>.data>.podata>.condition{
+	background-color:#CF0;
+	}
+	
+#player1>.data>.podata>.hpmeter{
+	background-color:#099;
+	}

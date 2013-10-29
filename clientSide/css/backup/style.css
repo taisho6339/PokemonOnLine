@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+
+/* all */
+
+html,body{
+		width:100%;
+		height:auto;
+		margin:0px auto;
+		padding:0px;
+	}
+
+article{
+	width:90%;
+	margin:0 auto;
+	}
+	
+/*player*/
+.player{
+	width: 100%;
+	height:100px;
+	display:box;  
+    display: -webkit-box;　/* Safari,Google Chrome用 */  
+    display: -moz-box;　/* Firefox用 */
+	}
+
+/*command*/
+
+.fight,.fight>ul>li{
+	background-color:#66CC99;
+	}
+.item,.item>ul>li{
+	background-color:#FF9966;
+	}
+	
+.pokemon,.pokemon>ul>li{
+	background-color:#FF99CC;
+	}
+
+.surrender,.surrender>ul>li{
+	background-color:#669999;
+	}
+
+.data{
+	width:16%;
+	height:100px;
+	border:solid 1px;
+	}
+.plname{
+	height:25px;
+	margin:0 auto;
+	padding:0px;
+	line-height:25px;
+	text-align:center;
+	}	
+.podata{
+	height:75px;
+	margin:0px;
+	padding:0px;
+	}
+.condition{
+	height:25px;
+	text-align:center;
+	line-height:25px;
+	margin: 0px auto;
+	}
+
+.hp{
+	height:15px;
+	text-align:center;
+	margin: 0px auto;
+	}
+	
+.pname{
+	height:20px;
+	text-align:center;
+	margin: 0px auto;
+	}
+.hpmeter{
+	width:80%;
+	height:15px;
+	margin:0px auto;
+	}
+
+
+.command{
+	width:64%;
+	height:100px;
+	}
+	
+ul{
+	height:25px;
+	list-style-type: none;  
+	margin: 0px;  
+	padding: 0px; 
+	}
+	
+li{
+	float: left;
+	height:100%;
+	width: 25%;  
+	margin: 0px;  
+	padding: 0px;
+	text-align:center;
+	line-height:25px;
+	}
+
+.pokeball{
+	width:20%;
+	}
+.pokeball>ul>li{
+	width:33.3%;
+	}
+
+/*field*/
+#field{
+	position:relative;
+	width:100%;
+	height:120px;
+	margin:0px auto;
+	padding:0px;
+	display:box;  
+    display: -webkit-box;　 
+    display: -moz-box;
+		}
+	
+
+#wait>img{
+	position:absolute;
+	margin-top:15px;
+	z-index:3;
+	left:50%;
+	margin-left:-220px;
+	}
+
+#battle>img{
+	position:absolute;
+	margin-top:15px;
+	z-index:2;
+	left:50%;
+	margin-left:-220px;
+	}
+
+
+#poke_1{
+	position:relative;
+	width:50%;
+	text-align:center;
+	z-index:1;
+	}
+	
+#poke_2{
+	position:relative;
+	width:50%;
+	text-align:center;
+	z-index:1;
+	}
